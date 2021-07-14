@@ -1,6 +1,8 @@
 #include <iostream>
+#include <addition.cpp>
 
 using namespace std;
+
 
 int main(){
     int a,b;
@@ -14,8 +16,9 @@ int main(){
 
     char op;
 
+    ADD *add;
     switch(op){
-        case '+' : addition(a,b);
+        case '+' : add->addition(a,b);
         case '-' : subtraction(a,b);
         case '*' : multiplication(a,b);
         case '/' : division(a,b);
