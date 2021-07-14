@@ -8,3 +8,7 @@ int main(){
 
     return 0;
 }
+
+int addition(int a, int b){
+    return a+b;
+}
